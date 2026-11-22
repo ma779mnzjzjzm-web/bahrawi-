@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="عيد ميلاد بحراوي ابن طه روح قلبي">
+  <title>بحراوي | كل سنة وإنت طيب</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <section id="intro" class="intro">
+    <div class="intro-stars" aria-hidden="true">✦　✧　✦</div>
+    <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+    <h1>راضيه عنييييييييي؟ <span></span></h1>
+    <p class="intro-note">عاملّك حاجة صغيرة.. بس لازم تدخل تشوفها بنفسك</p>
+    <button class="btn btn-primary" id="enterBtn">ادخل شوف <span>←</span></button>
+    <p class="intro-foot">اضغط واستعد </p>
+  </section>
+
+  <main id="site" class="hidden">
+    <nav class="nav">
+      <a class="nav-brand" href="#home">بحراوي<span> ✦</span></a>
+
+      <div class="nav-links">
+        <a href="#story">الحكاية</a>
+        <a href="#photos">الصور</a>
+        <a href="#videos">الفيديوهات</a>
+        <a href="#message">الرسالة</a>
+      </div>
+
+      <button class="sound-btn" id="topBtn" aria-label="الرجوع للأعلى" title="الرجوع للأعلى">↑</button>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow reveal">THIS IS YOUR MOMENT</p>
+      <h1 class="logo reveal">بحراوي</h1>
+      <p class="hero-sub reveal">كل سنة وإنت طيب يهندسههه</p>
+      <div class="hero-line reveal"><span></span> يوم ما يعلم بيه الا ؤبنا <span></span></div>
+      <a class="scroll-cue" href="#story" aria-label="انزل يمدلع"><span>↓</span></a>
+    </header>
+
+    <section class="section intro-story" id="story">
+      <div class="section-kicker reveal">01 / البداية</div>
+      <h2 class="section-title reveal">أهلاً بيك في الجديد منه يا صاحبي<span>♛</span></h2>
+      <p class="lead reveal">الموقع ده اتعمل مخصوص عشانك.. فيه صور وفيديوهات وذكريات، خليك معايا للآخر.</p>
+
+      <div class="stats reveal">
+        <div><strong>∞</strong><span>ذكريات</span></div>
+        <i></i>
+        <div><strong>1</strong><span>العلق الي بحبه</span></div>
+        <i></i>
+        <div><strong>100%</strong><span>اجدع راجل وابضن راجل</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="photos">
+      <div class="section-kicker reveal">02 / THE MEMORIES</div>
+      <h2 class="section-title reveal">بحبك يعم <span>📸</span></h2>
+      <p class="section-desc reveal">ملناش صور كتير مع بعض بس يعلم ربنا انا بحب ازتي يعلق</p>
+
+      <div class="photos">
+        <button class="photo reveal" data-full="photos/1.jpg" aria-label="ابن طه روح قلبي">
+          ابن طه روح قلبي
+          <img src="image.jpeg lo" alt="الهندسه" loading="lazy">
+        </button>
+
+        <button class="photo reveal" data-full="photos/2.jpg" aria-label="حبيب دين امي">
+          <img src="Image 2026- AM.jpeg" alt="المز بتاعنا" loading="lazy">
+        </button>
+
+        <button class="photo reveal" data-full="photos/3.jpg" aria-label="ربنا يديمك وسطنا يروح قلبي">
+          <img src="Image 2026-11-22 at 3.31.28 AM.jpeg" alt="ابن طه حبيبنا وبيشرب من حالبنا" loading="lazy">
+        </button>
+      </div>
+    </section>
+
+    <section class="section video-section" id="videos">
+      <div class="section-kicker reveal">03 / THE FUN PART</div>
+      <h2 class="section-title reveal">عشان تعرف اني بحبك محتطش السديهات بتاعاتك هنا<span>🎬</span></h2>
+      <p class="section-desc reveal">ا بحبك يلا</p>
+
+      <div class="videos">
+        <div class="video-card reveal">
+          <video src="video-2.mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="v.mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="Vi6.mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="Video  (1).mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="Video 20.mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="Video 2026-.mp4" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-card reveal">
+          <video src="Video 209.mp4" controls playsinline preload="metadata"></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section message-section" id="message">
+      <div class="section-kicker reveal">04 / FROM THE HEART</div>
+      <h2 class="section-title reveal">رسالة من اخوك<span>💛</span></h2>
+
+      <article class="letter reveal">
+        <div class="letter-mark">“</div>
+
+        <p>كل سنة وإنت صاحبي وكل سنة وإحنا مع بعض. ربنا يديم صحبتنا وعشرتنا الحلوة ويبعد عننا أي حاجة وحشة، وعقبال سنين كتير نفضل فيها مع بعض ونفتكر كل المواقف والذكريات اللي بينا. كل سنة وإنت طيب يا خويا.</p>
+
+        <p>عايز أقولك إن وجودك في حياتي حاجة أنا بجد مقدرها، ومهما اتقال كلام مش هيكفي يوصف قيمة الصحوبية اللي بينا. يمكن مش دايمًا بعرف أقول الكلام ده، ويمكن أغلب وقتنا يبقى هزار وضحك ورخامة على بعض، بس في الآخر إنت واحد من الناس اللي بكون مطمن وأنا عارف إنهم موجودين.</p>
+
+        <p>أتمنى السنة الجديدة دي تكون بداية لحاجات كتير حلوة ليك، وتحقق فيها حاجات نفسك فيها من زمان، وتوصل لكل حاجة بتسعى ليها. وأتمنى كمان إنك تفضل دايمًا بنفس شخصيتك وروحك الحلوة.. استغفر الله.</p>
+
+        <p>ومهما الدنيا ضغطت عليك أو قابلتك حاجات مش على مزاجك، تفضل عارف إن كل حاجة بتعدي وإن اللي جاي بإذن الله أحسن. عايز أشوفك دايمًا ناجح وفرحان ومحقق اللي نفسك فيه، وأفضل أشوفك بتتقدم خطوة بخطوة لحد ما توصل للمكان اللي تستحقه. وربنا يبعد عنك أي شخص أو حاجة ممكن تضايقك غيري، ويعوضك عن أي حاجة زعلتك أو تعبتك قبل كده.</p>
+
+        <p>وأهم حاجة ما تتغيرش مهما حصل. خليك فاكر إن السنين والأيام ممكن تغير حاجات كتير، لكن الصحوبية الحقيقية بتفضل زي ما هي. ولو اتغيرت عليا صدقني هفشخك.</p>
+
+        <p class="letter-end">كل سنة وإنت صاحبي وأخويا، وكل سنة وإنت بخير وبألف صحة وسعادة. وإن شاء الله العمر الجاي كله يكون نجاح وأيام حلوة مع بعض.</p>
+
+        <div class="letter-sign">من صاحبك اللي بيحب يرخم عليك ✦</div>
+      </article>
+    </section>
+
+    <footer class="finale">
+      <div class="finale-spark">✦ ✧ ✦</div>
+      <p class="eyebrow reveal">ONE MORE THING</p>
+      <h2 class="reveal">كل سنة وإنت طيب<br><span>يا بحراوي</span></h2>
+      <p class="finale-note reveal">وعقبال سنين كتير مليانة ضحك ونجاح وذكريات.</p>
+      <button class="btn btn-primary reveal" id="boomBtn">اضغط هنا للاحتفال <span>✦</span></button>
+      <p class="copyright">صُنِع بحب وبشوية رخامة ©</p>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق">×</button>
+    <img id="lightboxImage" src="" alt="صورة مكبرة">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
